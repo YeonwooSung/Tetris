@@ -15,10 +15,10 @@ struct tetris_block {
 // The aim of this struct is to store the information of tetris game.
 struct tetris {
     char **game;
-    char w;
-    char h;
-    char level;
-    char gameover;
+    int w;
+    int h;
+    int level;
+    int gameover;
     int score;
     int x;
     int y;
