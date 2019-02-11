@@ -1,10 +1,12 @@
 # Tetris
 
-A tetris game in C
+## 1. Overview
 
-## Usage
+This is a tetris game written by C.
 
-### How to compile
+## 2. Usage
+
+### 2 - 1. How to compile
 To compile, use:
 
     make
@@ -12,7 +14,7 @@ To compile, use:
 It will output a binary file Tetris.
 
 
-### How to control
+### 2 - 2. How to control
 
 Controls:
 
