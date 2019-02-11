@@ -22,7 +22,7 @@ struct tetris {
     int score;
     int x;
     int y;
-    struct tetris_block *current;
+    struct tetris_block current;
 };
 
 
