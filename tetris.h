@@ -25,7 +25,9 @@ struct tetris {
     struct tetris_block current;
 };
 
+
 /*------------------------------- function prototyeps -------------------------------*/
+
 void tetris_cleanup_io();
 
 void tetris_signal_quit(int);
