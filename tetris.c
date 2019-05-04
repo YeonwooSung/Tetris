@@ -37,6 +37,8 @@ struct termios save;
 #define TETRIS_PIECES (sizeof(blocks) / sizeof(struct tetris_block))
 #define TETRIS_LEVELS (sizeof(levels) / sizeof(struct tetris_level))
 
+#define TIME_ZERO 0
+#define TIME_COUNT_NANO 1000000
 
 /*------------------------------- functions ---------------------------------------*/
 
@@ -271,8 +273,8 @@ void tetris_run(int w, int h) {
     tetris_init(&t, w, h);
     srand(time(NULL));
 
-    tm.tv_sec = 0;
-    tm.tv_nsec = 1000000;
+    tm.tv_sec = TIME_ZERO;
+    tm.tv_nsec = TIME_COUNT_NANO;
 
     tetris_new_block(&t);
 
