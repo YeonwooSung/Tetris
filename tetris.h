@@ -54,8 +54,8 @@ void tetris_gravity(struct tetris *t);
 
 void tetris_fall(struct tetris *t, int l);
 
-void tetris_check_lines(struct tetris *t);
+void checkLines(struct tetris *t);
 
-int tetris_level(struct tetris *t);
+int tetrisLevel(struct tetris *t);
 
 #endif //TETRIS_H
